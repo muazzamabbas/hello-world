@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_launcher"
+    
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" 
+        android:textSize="45sp"
+        android:gravity="center"
+        android:id="@+id/tvdisplay"/>
+    
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bAdd"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/bAdd"
+       
+        
+        />
+    
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bSub"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/bSub"
+        
+        
+        />
+        
+    
+  <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bRes"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/bRes"
+       
+        
+        /> 
+
+</LinearLayout>
